@@ -101,7 +101,7 @@ function submitEmail() {
         method: "POST",
         from_name: form_name.value,
         from_email: email.value,
-        to_name: "Shuvro!",
+        to_name: "jeanaimeiraguha@gmail.com",
         subject: subject.value,
         message: message.value,
     };
