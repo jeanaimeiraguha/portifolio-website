@@ -70,7 +70,18 @@
                 <a href="#" onclick="contact(); animate5.play()">contact</a>
             </li>
         </ul>
-        <p>&copy; 2025 Jean Aime Iraguha.</p>
+        <footer>
+            <p>&copy; <span id="year"></span> Jean Aime Iraguha.</p>
+          </footer>
+          
+          <script>
+         
+            const currentYear = new Date().getFullYear();
+            
+           
+            document.getElementById("year").textContent = currentYear;
+          </script>
+          
     </nav>
 
     <div class="container">
